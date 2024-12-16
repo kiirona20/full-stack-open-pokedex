@@ -18,6 +18,6 @@ jobs:
       - name: lint
         run: npm run eslint
       - name: build
-        run: npm run webpack --mode production
+        run: npm build webpack --mode production
       - name: test
         run: npm run jest
